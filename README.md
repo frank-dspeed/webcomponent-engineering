@@ -47,3 +47,12 @@ There are many Ways to Optimize Existing Code Execution and Load times so that e
 
 The most often used way of bundling all logic into a single script that you ship with your HTML String representation is most times when you do server-side rendering a bad idea at last when it loads all assets before they are even needed. While it can be the right thing to do when you Deliver Web Or Mobile Applications that should work offline.
 
+## That Leads us to the follwing Framwork Conclusions
+Todo.... I Should now prepare a demonstration of all the existing Frameworks and Show why they fail The goal of Fast Rendering Webpages Most of the Time.
+I should also demo why the even fail when you create Large Complex Applications.
+
+I should show Stealify Components and why they are designed the way they are designed and should clean up the loader Documentation and modules.
+
+I should rant about WebPack and all the stuff that we as a community created to make our life more complex then it should be.
+
+And i Should maybe Talk about Testing and Performance Budgeds that do give the user a better Expirence.
