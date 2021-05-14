@@ -84,3 +84,9 @@ First of all this Both are DOM Only patterns and should be only used to create F
 For example backbone, react, vue, donejs, svelt and many others do not use customElement api by default. While Angular for example does use that API by default.
 - use CustomElements Api
 - use MutationObserver for on insert events use subtree true to do it on Application level.
+
+
+A Litle Example to demonstrate access to a shared registrie based on ECMAScript Modules you can call any module with this as parameter.
+```html
+<link rel="preload" href="style.css" as="style" onload="import('./style.js').then(s=>{console.log(s);this.onload=null;this.rel='stylesheet';})">
+```
