@@ -75,3 +75,6 @@ also see: https://web.dev/defer-non-critical-css/
 
 A Really good pattern is to inject your style programatical and make it identify able via a extra attribute on the style or link tag
 this way you can check if the style exists already at the given place and only render it when it is needed.
+
+The best way to Integrate styles is to use a style component a String only Component that renders the style tag for a given section. this allows good templating
+and keeps the components crisp.
