@@ -56,3 +56,10 @@ I should show Stealify Components and why they are designed the way they are des
 I should rant about WebPack and all the stuff that we as a community created to make our life more complex then it should be.
 
 And i Should maybe Talk about Testing and Performance Budgeds that do give the user a better Expirence.
+
+
+# About CSS
+When you code custom Elements or Components you should make the Style editable
+The right method to do that depends on the Component size on a element level its most time enough to be able to set the element.style attribute.
+- https://stackoverflow.com/a/56706888/2950649
+- https://developer.mozilla.org/de/docs/Web/CSS/@import
