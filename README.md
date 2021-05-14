@@ -78,3 +78,9 @@ this way you can check if the style exists already at the given place and only r
 
 The best way to Integrate styles is to use a style component a String only Component that renders the style tag for a given section. this allows good templating
 and keeps the components crisp.
+
+## If you want to deal with customElements that get inserted dynamical
+First of all this Both are DOM Only patterns and should be only used to create Frameworks and Editors this is not the best way to render components in general.
+For example backbone, react, vue, donejs, svelt and many others do not use customElement api by default. While Angular for example does use that API by default.
+- use CustomElements Api
+- use MutationObserver for on insert events use subtree true to do it on Application level.
