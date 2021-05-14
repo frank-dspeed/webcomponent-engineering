@@ -72,3 +72,6 @@ Also not that it is often clever to not depend on link rel stylesheet inclusion 
 is preferable and can also be easy inserted via js it also supports 3 parameter to import only on matching media querys read the @import docs.
 
 also see: https://web.dev/defer-non-critical-css/
+
+A Really good pattern is to inject your style programatical and make it identify able via a extra attribute on the style or link tag
+this way you can check if the style exists already at the given place and only render it when it is needed.
