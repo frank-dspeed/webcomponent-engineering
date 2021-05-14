@@ -63,3 +63,10 @@ When you code custom Elements or Components you should make the Style editable
 The right method to do that depends on the Component size on a element level its most time enough to be able to set the element.style attribute.
 - https://stackoverflow.com/a/56706888/2950649
 - https://developer.mozilla.org/de/docs/Web/CSS/@import
+
+
+Also not that it is often clever to not depend on link rel stylesheet inclusion to get better performance often 
+```
+<style>@import url(":/mycss") </style>
+```
+is preferable and can also be easy inserted via js it also supports 3 parameter to import only on matching media querys read the @import docs.
